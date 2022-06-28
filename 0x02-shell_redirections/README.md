@@ -2,6 +2,7 @@
 
 This directory contains several scripts that perform different functions. Here is a description of what each script does.
 
+## list of scripts
 * *0-hello_world* is a script that prints "Hello, World"
 * *1-confused_smiley* is  a script that displays a confused smiley "(Ôo)'
 * *3-twofiles displays* the content of /etc/passwd and /etc/hosts
