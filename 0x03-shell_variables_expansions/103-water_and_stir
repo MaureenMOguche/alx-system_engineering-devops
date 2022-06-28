@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "ibase=$water; obase=$stir; $(($WATER+$STIR))"
