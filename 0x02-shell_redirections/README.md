@@ -1,4 +1,6 @@
-#This is a readme for the shell Redirections tasks
+# This is a README for the Shell Redirections Directory
+
+This directory contains several scripts that perform different functions. Here is a description of what each script does.
 
 * 0-hello_world is a script that prints "Hello, World"
 * 1-confused_smiley is  a script that displays a confused smiley "(Ôo)'
