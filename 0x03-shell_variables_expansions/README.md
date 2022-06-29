@@ -14,3 +14,6 @@ All files contained here are executable scripts that can be run in a shell envir
 * ***9-divide_and_rule*** prints the result of two environment variables POWER divided by DIVIDE
 * ***10-love_exponent_breath*** displays the result of BREATH to the power LOVE
 * ***11-binary_to_decimal*** is a script that converts a number stored in an environment variable BINARY from base 2 to base 10
+* ***12-combinations*** prints all possible combinations of two lower case letters from a to z, except oo
+* ***13-print_float*** prints a number stored in an environment variable NUM in two decimal places.
+* ***100-decimal_to_hexadecimal*** converts a number stored in an environment variable DECIMAL from base 10 to base 16.
