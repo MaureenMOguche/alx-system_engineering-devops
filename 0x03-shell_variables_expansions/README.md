@@ -17,3 +17,6 @@ All files contained here are executable scripts that can be run in a shell envir
 * ***12-combinations*** prints all possible combinations of two lower case letters from a to z, except oo
 * ***13-print_float*** prints a number stored in an environment variable NUM in two decimal places.
 * ***100-decimal_to_hexadecimal*** converts a number stored in an environment variable DECIMAL from base 10 to base 16.
+* ***101-rot13*** is a script that encodes and decodes text using the rot13 encryption assuming ASCII
+* ***102-odd*** is a script that prints every other line from the input, starting with the first line
+* ***103-water_and_stir*** adds the two numbers stored in the environment variables WATER and STIR and prints the result. WATER has a base stored in a variable called water while STIR has a base in a variable called stir.
