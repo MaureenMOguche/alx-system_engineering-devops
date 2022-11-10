@@ -3,6 +3,6 @@
 
 while((i<10));
 do
-	echo "Best school" &
-	i=$[$i+1]
+	echo "Best School" &
+	i=$((i+1))
 	done
