@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+#displays details of a file
+
+LIST="$(ls)"
+for i in $LIST
+do
+	if (( i = school ))
+	then
+		EXIST="true"
+	else
+		EXIST="false"
+	fi
+
+	if (( "echo $EXIST" = "true"))
+	then
+		echo "school file exists"
+	else
+		echo "school file does not exist"
+	fi
+done
