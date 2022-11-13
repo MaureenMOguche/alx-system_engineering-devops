@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+#displays hours and minutes
+
+hour=0
+while (( hour < 13 ))
+do
+	echo "Hour: $hour"
+
+	mins=1
+	while (( mins < 60 ))
+	do
+		echo "$mins"
+		mins=$(( mins+1 ))
+	done
+	hour=$(( hour+1 ))
+done
