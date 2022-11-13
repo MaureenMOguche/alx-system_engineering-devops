@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 # This script displays "Best school" and on the 9th iteration, hi
 i=0
-while [ $i -lt 10 ]
+while [ $i -le 10 ]
 do
-	if [ $i -eq 8 ]
+	if [ $i -eq 9 ]
 	then
 		echo "Hi"
 	else
