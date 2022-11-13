@@ -4,14 +4,17 @@
 i=1
 while (( i <= 20 ))
 do
-	if (( i == 5 ))
+	if (( i == 4 ))
 	then
+		echo "$i"
 		echo "bad luck from China"
-	elif (( i == 10 ))
+	elif (( i == 9 ))
 	then
+		echo "$i"
 		echo "bad luck from Japan"
-	elif (( i == 18 ))
+	elif (( i == 17 ))
 	then
+		echo "$i"
 		echo "bad luck from Italy"
 	else
 		echo "$i"
