@@ -1,5 +1,5 @@
 exec { 'killmenow':
-  command => 'pkill -9 | grep killmenow',
+  command => 'pkill | grep killmenow',
   path    => ['./']
 }
 
