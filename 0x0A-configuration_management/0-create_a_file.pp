@@ -1,4 +1,6 @@
-file { 'resource title':
+#creates a file
+
+file { 'create a file':
   path    => '/tmp/school',
   mode    => '0744',
   owner   => 'www-data',
