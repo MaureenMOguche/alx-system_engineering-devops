@@ -1,7 +1,7 @@
 #kills a process
 
-exec { 'killmenow':
-  command => 'pkill | grep killmenow',
-  path    => ['./']
+exec { 'pkill':
+  provider => 'shell',
+  command  => 'pkill -9 killmenow'
 }
 
