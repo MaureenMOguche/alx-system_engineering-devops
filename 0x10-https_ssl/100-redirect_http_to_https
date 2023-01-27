@@ -33,14 +33,13 @@ defaults
 	errorfile 503 /etc/haproxy/errors/503.http
 	errorfile 504 /etc/haproxy/errors/504.http
 
-frontend web-frontend
+frontend myfrontend
 	bind *:80
-	bind *:443 ssl crt /etc/ssl/certs/www.vabuka.tech.pem
-	mode http
-	http-request redirect scheme https code 301 unless { ssl_fc }
-	default_backend web-backend
+	bind *:443 ssl crt /etc/haproxy/certs/www.codewithreen.tech.pem
+	http-request redirect scheme https code 301 if { hdr(Host) -i www.codewithreen.tech } !{ssl_fc}
+	default_backend myservers
 
-backend web-backend
+backend myservers
 	balance roundrobin
-	server web-01 	100.26.135.224:80 check
-	server web-02 	3.235.226.56:80 check
+	server web-01 52.86.84.147:80 check
+	server web-02 107.23.92.225:80 check
